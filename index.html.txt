@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .bio {
+            background-color: #fff;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma page personnelle</h1>
+    </header>
+    <div class="container">
+        <div class="bio">
+            <h2>À propos de moi</h2>
+            <p>Salut ! Je m'appelle Sofia et je suis un simple être humain basé en Algérie. Je suis passionnée par la lecture, le dessin, la cuisine et les chats. Sur ce blog, je partage mes réflexions, mes projets et tout ce qui m'inspire. Merci de votre visite !</p>
+        </div>
+        <div class="blog-posts">
+            <h2>Derniers Articles</h2>
+            <p>À venir bientôt...</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sofia. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
